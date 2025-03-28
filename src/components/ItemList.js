@@ -23,7 +23,7 @@ const handleAddItem = (item) =>{
         </div>
         <div  className=' p-4 w-3/12'>
         <div className='absolute'>
-            <button className= 'bg-black text-white p-2 mx-16 shadow-lg rounded-lg' onClick={()=>handleAddItem(item)}>Add</button>
+            <button className= 'bg-black text-white p-2 mx-16 shadow-lg rounded-lg' onClick={()=>handleAddItem(item)} >Add</button>
             </div>
             <img src={CDN_URL+item.card.info.imageId} className='w-full'/>
             </div>          
