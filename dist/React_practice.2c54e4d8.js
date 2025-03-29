@@ -27017,14 +27017,51 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Contact = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "This is contact us page"
-        }, void 0, false, {
-            fileName: "src/components/Contact.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "p-4 m-4 font-bold text-4xl",
+                children: "This is contact us page"
+            }, void 0, false, {
+                fileName: "src/components/Contact.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        className: "border border-black p-2 m-2",
+                        type: "text",
+                        placeholder: "name"
+                    }, void 0, false, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 8,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        className: "border border-black p-2 m-2",
+                        type: "text",
+                        placeholder: "message"
+                    }, void 0, false, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "border border-black p-2 m-2 rounded-2xl bg-pink-400 cursor-pointer",
+                        children: "SUBMIT"
+                    }, void 0, false, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Contact.js",
+                lineNumber: 7,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/Contact.js",
         lineNumber: 5,
         columnNumber: 5
